@@ -2,13 +2,17 @@
 
 ## Overview
 
-This repository presents a research-based graduation project that investigates Arabic hate speech detection using a multi-label classification framework for social media content.
+This repository presents a research-based graduation project that addresses the challenge of Arabic hate speech detection in social media content through a multi-label classification framework.
 
-The proposed framework simultaneously performs three classification tasks:
+Unlike traditional approaches that focus solely on detecting hate speech, the proposed framework simultaneously performs three related tasks:
 
 * Hate Speech Detection
 * Dialect Identification
 * Topic Identification
+
+By combining these tasks within a single framework, the system provides a richer understanding of Arabic social media content and captures contextual information that can improve hate speech analysis.
+
+To support this research, a custom multi-label Arabic dataset was developed from scratch by collecting tweets from X (Twitter) using carefully selected keywords. The collected tweets were manually reviewed, annotated, validated, and preprocessed before being used for model training and evaluation.
 
 The framework combines textual and emoji-based features to capture both explicit and implicit forms of hate speech. In addition, Explainable Artificial Intelligence (XAI) techniques were incorporated to improve the interpretability and transparency of model predictions.
 
@@ -40,11 +44,15 @@ The project was developed through four main phases:
 
 ## Dataset Development
 
-* Arabic tweets were collected from X (Twitter).
-* The dataset covers Saudi and Egyptian dialects.
-* Political and religious topics were included.
-* Manual annotation, validation, and preprocessing were applied.
+A custom Arabic dataset was created specifically for this study.
+
+* Tweets were collected from X (Twitter) using predefined keywords related to political and religious contexts.
+* The dataset includes Saudi and Egyptian dialects.
+* Each tweet was manually annotated with three labels: hate speech, dialect type, and topic.
+* Data validation, cleaning, and preprocessing were performed to ensure quality and consistency.
 * The final dataset consisted of **3,962 Arabic tweets**.
+
+The resulting dataset enabled the development and evaluation of a multi-label classification framework capable of performing all three tasks simultaneously.
 
 ---
 
@@ -106,6 +114,7 @@ This repository contains:
 
 * Explainable AI (XAI) implementation using LIME.
 * Project poster.
+
 ---
 
 ## Dataset Availability
@@ -130,4 +139,3 @@ Dr. Tahani Alqurashi
 Data Science Department
 College of Computing
 Umm Al-Qura University
-
