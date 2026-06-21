@@ -2,15 +2,17 @@
 
 ## Overview
 
-This graduation project presents a multi-label framework for Arabic hate speech detection on social media content.
+This repository presents a research-based graduation project that investigates Arabic hate speech detection using a multi-label classification framework for social media content.
 
-The proposed system simultaneously performs three classification tasks:
+The proposed framework simultaneously performs three classification tasks:
 
 * Hate Speech Detection
 * Dialect Identification
 * Topic Identification
 
 The framework combines textual and emoji-based features to capture both explicit and implicit forms of hate speech. In addition, Explainable Artificial Intelligence (XAI) techniques were incorporated to improve the interpretability and transparency of model predictions.
+
+This work is intended for academic and research purposes and focuses on experimentation, model development, and evaluation rather than developing a production application or web-based system.
 
 ---
 
@@ -102,17 +104,13 @@ This repository contains:
 
 ### Additional Resources
 
-* Data preprocessing and feature engineering scripts.
 * Explainable AI (XAI) implementation using LIME.
-* A sample of the dataset for demonstration purposes.
 * Project poster.
 ---
 
 ## Dataset Availability
 
-Due to privacy, academic, and intellectual property considerations, the full dataset is not publicly available.
-
-A small sample of the dataset is provided for demonstration and research showcase purposes only.
+The dataset used in this study is not publicly available due to privacy, academic, and intellectual property considerations.
 
 ---
 
