@@ -112,6 +112,7 @@ This repository contains:
 
 * Explainable AI (XAI) implementation using LIME.
 * Project poster.
+* Demo examples
 
 ---
 
