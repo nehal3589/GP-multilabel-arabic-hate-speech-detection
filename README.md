@@ -16,8 +16,6 @@ To support this research, a custom multi-label Arabic dataset was developed from
 
 The framework combines textual and emoji-based features to capture both explicit and implicit forms of hate speech. In addition, Explainable Artificial Intelligence (XAI) techniques were incorporated to improve the interpretability and transparency of model predictions.
 
-This work is intended for academic and research purposes and focuses on experimentation, model development, and evaluation rather than developing a production application or web-based system.
-
 ---
 
 ## Project Objectives
