@@ -21,7 +21,7 @@ The framework combines textual and emoji-based features to capture both explicit
 ## Project Objectives
 
 * Develop a multi-label classification framework for Arabic social media content.
-* Detect hate speech, dialect type, and tweet topic simultaneously.
+* Detect hate speech, dialect type, and topic simultaneously.
 * Integrate textual and emoji-based features.
 * Improve model transparency using Explainable AI (XAI).
 * Build a multi-label Arabic dataset covering Saudi and Egyptian dialects across political and religious contexts.
